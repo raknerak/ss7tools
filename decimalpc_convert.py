@@ -90,8 +90,6 @@ def decimal_to_three_eight_three(num):
     else:
         return 'You entered invalid Point Code decimal value: %d however it should in the range of 0-16383 according to ITU specification' %(num)
 
-import PySimpleGUI as sg
-
 
 if __name__ == "__main__":
     value = input("Please enter decimal point code: ")
